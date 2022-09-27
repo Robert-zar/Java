@@ -1,3 +1,5 @@
+//Выволит окно с названием "Моя программа"
+
 import java.awt.*;
 import java.awt.event.*;
 class SimpleFrame extends Frame{
