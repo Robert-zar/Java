@@ -1,3 +1,5 @@
+//Выводит окно с текстом "Hello, XXI century World!". Название окна "Здравствуй, мир XXI века!"
+
 import java.awt.*;
 import java.awt.event.*;
 
