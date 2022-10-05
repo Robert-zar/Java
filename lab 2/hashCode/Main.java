@@ -19,6 +19,8 @@ public class Main {
         }
     }
 
+    #Выводит HashCode и имя
+        
     public static void main(String[] args) {
         User usl = new User("Иван", "Петров", 1996);
         System.out.println(usl.toString());
