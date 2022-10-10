@@ -1,4 +1,4 @@
-public class Animals implements Action {
+abstract class Animals implements Action {
     private String Name;
     private String Type;
     private String Sound;
