@@ -1,3 +1,5 @@
+#Графический интерфейс с выпадающим списком, где находятся марки машин с фотографиями и характеристиками
+
 package components;
 
 
@@ -15,32 +17,32 @@ class ComboBoxDemo extends JPanel
 
         String[] carStrings = { "Mercedes", "BMW", "Audi" , "Lexus", "KIA", "Porsche", "Bentley"};
 
-        //Create the combo box, select the item at index 4.
-        //Indices start at 0, so 4 specifies the pig.
+        //Создание поля со списком, выбор элемента с индексом 0.
+        //Этот индекс означает первый элемент в списке, т.е Mercedes.
         JComboBox carList = new JComboBox(carStrings);
         carList.setSelectedIndex(0);
         carList.addActionListener(this);
 
-        //Set up the picture.
+        //Настройка картинки.
         picture = new JLabel();
         picture.setFont(picture.getFont().deriveFont(Font.ITALIC));
         picture.setHorizontalAlignment(JLabel.CENTER);
         Label(carStrings[carList.getSelectedIndex()]);
         picture.setBorder(BorderFactory.createEmptyBorder(10,0,0,0));
 
-        //The preferred size is hard-coded to be the width of the
-        //widest image and the height of the tallest image + the border.
-        //A real program would compute this.
+        // Предпочтительный размер жестко закодирован, чтобы быть шириной
+         //самое широкое изображение и высота самого высокого изображения + граница.
+         //Эта программа вычислит это.
         picture.setPreferredSize(new Dimension(780, 500));
 
-        //Lay out the demo.
+        //Выложите демо.
         add(carList, BorderLayout.PAGE_START);
         add(picture, BorderLayout.PAGE_END);
         setBorder(BorderFactory.createEmptyBorder(100,100,100,100));
 
     }
 
-    /** Listens to the combo box. */
+    /** Слушает поле со списком. */
     public void actionPerformed(ActionEvent e) {
         JComboBox cb = (JComboBox)e.getSource();
         String carName = (String)cb.getSelectedItem();
@@ -82,7 +84,7 @@ class ComboBoxDemo extends JPanel
         }
     }
 
-    /** Returns an ImageIcon, or null if the path was invalid. */
+    /** Возвращает ImageIcon или null, если путь недействителен. */
     protected static ImageIcon createImageIcon(String path) {
         java.net.URL imgURL = ComboBoxDemo.class.getResource(path);
         if (imgURL != null) {
@@ -94,28 +96,28 @@ class ComboBoxDemo extends JPanel
     }
 
     /**
-     * Create the GUI and show it.  For thread safety,
-     * this method should be invoked from the
-     * event-dispatching thread.
+      * Создайть графический интерфейс и показать его. Для безопасности потоков,
+      * этот метод следует вызывать из
+      * поток диспетчеризации событий.
      */
     private static void createAndShowGUI() {
-        //Create and set up the window.
+        //Создайть и настройть окно.
         JFrame frame = new JFrame("ComboBoxDemo");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        //Create and set up the content pane.
+        //Создайть и настройть панель содержимого.
         JComponent newContentPane = new ComboBoxDemo();
         newContentPane.setOpaque(true); //content panes must be opaque
         frame.setContentPane(newContentPane);
 
-        //Display the window.
+        //Показать окно.
         frame.pack();
         frame.setVisible(true);
     }
 
     public static void main(String[] args) {
-        //Schedule a job for the event-dispatching thread:
-        //creating and showing this application's GUI.
+        // Запланировать задание для потока диспетчеризации событий:
+         // создание и отображение графического интерфейса этого приложения.
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 createAndShowGUI();
