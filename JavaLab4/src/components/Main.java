@@ -1,7 +1,7 @@
 #Графический интерфейс с выпадающим списком, где находятся марки машин с фотографиями и характеристиками
 
-package components;
 
+package components;
 
 import java.awt.*;
 import java.awt.event.*;
