@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tictactoe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:5:5-63:19
+12        android:allowBackup="true"
+12-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\rzarg\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.TicTacToe" >
+22-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:13:9-47
+23        <activity
+23-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:15:9-21:20
+24            android:name="com.example.tictactoe.PIckOpponentActivity"
+24-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:16:13-49
+25            android:exported="false" >
+25-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:17:13-37
+26            <meta-data
+26-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:18:13-20:36
+27                android:name="android.app.lib_name"
+27-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:19:17-52
+28                android:value="" />
+28-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:20:17-33
+29        </activity>
+30        <activity
+30-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:22:9-28:20
+31            android:name="com.example.tictactoe.InDepthStatsActivity"
+31-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:23:13-49
+32            android:exported="false" >
+32-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:24:13-37
+33            <meta-data
+33-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:18:13-20:36
+34                android:name="android.app.lib_name"
+34-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:19:17-52
+35                android:value="" />
+35-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:20:17-33
+36        </activity>
+37        <activity
+37-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:29:9-35:20
+38            android:name="com.example.tictactoe.ShowStandingsActivity"
+38-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:30:13-50
+39            android:exported="false" >
+39-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:31:13-37
+40            <meta-data
+40-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:18:13-20:36
+41                android:name="android.app.lib_name"
+41-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:19:17-52
+42                android:value="" />
+42-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:20:17-33
+43        </activity>
+44        <activity
+44-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:36:9-42:20
+45            android:name="com.example.tictactoe.PlayGameActivity"
+45-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:37:13-45
+46            android:exported="false" >
+46-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:38:13-37
+47            <meta-data
+47-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:18:13-20:36
+48                android:name="android.app.lib_name"
+48-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:19:17-52
+49                android:value="" />
+49-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:20:17-33
+50        </activity>
+51        <activity
+51-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:43:9-49:20
+52            android:name="com.example.tictactoe.EnterNamesActivity"
+52-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:44:13-47
+53            android:exported="false" >
+53-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:45:13-37
+54            <meta-data
+54-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:18:13-20:36
+55                android:name="android.app.lib_name"
+55-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:19:17-52
+56                android:value="" />
+56-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:20:17-33
+57        </activity>
+58        <activity
+58-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:50:9-62:20
+59            android:name="com.example.tictactoe.MainActivity"
+59-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:51:13-41
+60            android:exported="true" >
+60-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:52:13-36
+61            <intent-filter>
+61-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:53:13-57:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:54:17-69
+62-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:54:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:56:17-77
+64-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:56:27-74
+65            </intent-filter>
+66
+67            <meta-data
+67-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:18:13-20:36
+68                android:name="android.app.lib_name"
+68-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:19:17-52
+69                android:value="" />
+69-->C:\Users\rzarg\AndroidStudioProjects\TicTacToe-App-main\app\src\main\AndroidManifest.xml:20:17-33
+70        </activity>
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rzarg\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rzarg\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+74            android:authorities="com.example.tictactoe.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rzarg\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rzarg\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rzarg\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rzarg\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rzarg\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rzarg\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rzarg\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rzarg\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+82        </provider>
+83    </application>
+84
+85</manifest>
