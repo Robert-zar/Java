@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="enterName">Enter your username:</string>
+    <string name="enterNameButton">Save</string>
+    <string name="b_finish">Quit</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="space"> </string>
+    <string name="leaderboardTitle">Leaderboard</string>
+    <string name="leaderboardSubTitle">- Select a name for in depth stats -</string>
+    <string name="pickOpponentTitle">Who are you playing against?</string>
+    <string name="enterNameTitle2">Enter Player 2\'s Name</string>
+    <string name="enterNameSubTitle">* Name is used for leaderboard\n(not case sensitive)</string>
+    <string name="statsTitle">Statistics for</string>
+    <string name="back">Back</string>
+    <string name="hintUsername">JaneDoe123</string>
+    <string name="gameTitle">Tap spot to start</string>
+    <string name="reset">Reset Stats</string>
+
+    <string-array name="homeMenu">
+        <item>Ввести имя</item>
+        <item>Начать игру</item>
+        <item>Статистика</item>
+    </string-array>
+
+    <string-array name="opponentMenu">
+        <item>Компьютер</item>
+        <item>Второй игрок</item>
+    </string-array>
+
+</resources>
