@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="homeMenu">
+        <item>Ввести имя</item>
+        <item>Начать игру</item>
+        <item>Статистика</item>
+    </string-array>
+    <string-array name="opponentMenu">
+        <item>Компьютер</item>
+        <item>Второй игрок</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="charcoal">#292929</color>
+    <color name="darkBlue">#32376f</color>
+    <color name="ic_launcher_background">#3D1952</color>
+    <color name="light">#dfe3e7</color>
+    <color name="lightBlue">#439E9B</color>
+    <color name="lighterBlue">#4D54A8</color>
+    <color name="orange">#e49a4d</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">TicTacToe</string>
+    <string name="b_finish">Quit</string>
+    <string name="back">Back</string>
+    <string name="enterName">Enter your username:</string>
+    <string name="enterNameButton">Save</string>
+    <string name="enterNameSubTitle">* Name is used for leaderboard\n(not case sensitive)</string>
+    <string name="enterNameTitle2">Enter Player 2\'s Name</string>
+    <string name="gameTitle">Tap spot to start</string>
+    <string name="hintUsername">JaneDoe123</string>
+    <string name="leaderboardSubTitle">- Select a name for in depth stats -</string>
+    <string name="leaderboardTitle">Leaderboard</string>
+    <string name="o">O</string>
+    <string name="pickOpponentTitle">Who are you playing against?</string>
+    <string name="reset">Reset Stats</string>
+    <string name="space"> </string>
+    <string name="statsTitle">Statistics for</string>
+    <string name="x">X</string>
+    <style name="Theme.TicTacToe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/light</item>
+        <item name="colorPrimaryVariant">@color/light</item>
+        <item name="colorOnPrimary">@color/darkBlue</item>
+        
+        <item name="colorSecondary">@color/lighterBlue</item>
+        <item name="colorSecondaryVariant">@color/lighterBlue</item>
+        <item name="colorOnSecondary">@color/darkBlue</item>
+        
+        <item name="android:statusBarColor">@color/darkBlue</item>
+        
+        <item name="android:background">@color/darkBlue</item>
+    </style>
+    <style name="dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/lighterBlue</item>
+        <item name="android:textColor">@color/light</item>
+    </style>
+    <style name="et" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/light</item>
+        <item name="android:backgroundTint">@color/light</item>
+        <item name="android:textColorHint">#93FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="h1" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/light</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="h2" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/light</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="primaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/lighterBlue</item>
+        <item name="android:background">@drawable/border</item>
+        <item name="android:textColor">@color/light</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="tv_gameBoard" parent="h2">
+        <item name="android:textSize">56sp</item>
+        <item name="android:textColor">@color/light</item>
+        <item name="android:background">@drawable/rounded_corners</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+</resources>
